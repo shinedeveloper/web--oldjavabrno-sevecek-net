@@ -6,7 +6,8 @@
     <title>Java | Czechitas</title>
     <script>
         var originalAddress = window.location.href;
-        var newAddress = originalAddress.replace("//oldjavabrno.sevecek.net", "//javabrno.czechitas.cz");
+        var newAddress = originalAddress.replace("//javabrno.sevecek.net", "//javabrno.czechitas.cz");
+        newAddress = newAddress.replace("//oldjavabrno.sevecek.net", "//javabrno.czechitas.cz");
         newAddress = newAddress.replace("//java.czechitas.sevecek.net", "//javabrno.czechitas.cz");
         if (originalAddress !== newAddress) {
             window.location.href = newAddress;
